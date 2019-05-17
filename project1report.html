@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Report</title>
+	</head>
+	
+	
+	
+	
+	<body>
+	<header>Team #10 - Ryan Bruns, Ellen Disilverio, Emerson Jackson, Rory O'Connor, Alec Sabatier</header>
+	<fieldset id="Glossary">
+		<h1>GLOSSARY</h1>
+		<!-- Term template start 
+		<p><b>Insert Term Here:</b> Insert Definition Here</p>
+		Term template end -->
+		
+		
+		<p><b>Insert Term Here:</b> Insert Definition Here</p>
+		<p><b>Insert Term Here:</b> Insert Definition Here</p>
+	</fieldset>
+	
+	<fieldset id="Use Cases">
+		<h1>USE CASES</h1>
+		<fieldset id="Use Case Quicklinks">
+			<h5>Use Case Quicklinks</h5>
+			
+			<!-- quicklink template start
+			<p><a href="#tag of use case">use case name</a></p>
+			quicklink template end -->
+			
+			<p><a href="#ReceiveHealthCareServices">Receive Health Care Services</a></p>
+			<p><a href="#BillForHealthCareServices">Bill For Health Care Services</a></p>
+		</fieldset>
+		
+		<!-- use case template start
+		<fieldset id="tag of use case">
+			<p><b>Use Case:</b> Name of the Use Case.</p> 
+			<p><b>Context:</b> Brief description of the Use Case.</p>
+			<p><b>Actors:</b> List of actors of the Use Case.</p> 
+			
+			<p><b>Main Success Scenario:</b></p> 
+			<p>
+			1.	 Step 1<br>
+			  1.1 Step 1.1<br>
+			2.	 Step 2<br>
+			3.	 Step 3
+			</p>
+			
+			<p><b>Extensions:</b> Possible alternatives to the steps you may think of (e.g., what happens if something goes wrong at this step), such as:</p> 
+			<p>
+			1a.	 Instead of Step 1<br>
+			3a.  Instead of Step 3<br>
+			3a.  Other alternative to Step 3
+			</p>
+		</fieldset>
+		use case template end -->
+		
+		
+		
+		<fieldset id="ReceiveHealthCareService">
+			<p><b>Use Case:</b> Receive Health Care Service</p> 
+			<p><b>Context:</b> A customer approaches the provider to receive health care services.</p>
+			<p><b>Actors:</b> The Chochoholic, The Provider.</p> 
+			
+			<p><b>Main Success Scenario:</b></p> 
+			<p>
+			1.	 The Chocoholic hands their member card to the provider<br>
+  &nbsp;&nbsp;1.1 The Provider swipes The Chocoholic member card<br>
+			2.	 The card number is sent to the ChocAn data center<br>
+			3.	 The data center checks the number against the member database<br>
+            4. 	 The data center returns that the number is valid<br>
+            5.	 The provider hands back the card, and wishes the customer a good day<br>
+            
+			</p>
+			
+			<p><b>Extensions:</b></p> 
+			<p>
+			1.1a.	 The Card number must be entered manually into the computer<br>
+			4a.  The member number is invalid because that member does not exist, so the data center return invalid number<br>
+			4a.  The member number is invalid because that member has been suspended, so the data center returns "member suspended" (Potential for overdue fees as well)
+			</p>
+		</fieldset>
+		
+		<fieldset id="BillForHealthCareServices">
+			<p><b>Use Case:</b> Bill for Health Care Services</p> 
+			<p><b>Context:</b> The customer has recieved a service, and the provider bill ChocAn for their time/resources</p>
+			<p><b>Actors:</b> The Chocoholic, The Provider, Disk Drive</p> 
+			
+			<p><b>Main Success Scenario:</b></p> 
+			<p>
+			1.	 The Customer hands his card to the provider<br>
+  &nbsp;&nbsp;1.1 The Provider swipes their card<br>
+			2.	 The card number is sent to the data center<br>
+  &nbsp;&nbsp;2.1 The card number is checked for validity<br>
+  &nbsp;&nbsp;2.2 The data center sends that the card is valid back<br>
+			3.	 The Provider looks up the six digit service code<br>
+            4.	 The Provider enters the code into the program <br>
+            5.	 That program displays the name of the service associated and asks the provider to verify it<br>
+            6.	 The Provider verifies the service<br>
+            7.	 The Provider is offered the oppurtunity to write commentary about the service provided<br>
+            8.	 The program writes a file to the hard drive including:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Current Date and Time (MM/DD/YYYY HH:MM:SS)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Date Service was Provided (MM/DD/YYYY)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Provider Number (9 digits)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Member Number (9 digits)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Service Code (6 digits)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Comments (100 characters) (optional)<br>
+            9.	 The program looks up the fees for the service provided from the provider directory<br>
+  &nbsp;&nbsp;9.1 The fee is displayed on the provider's terminal<br>
+            10.	 The Provider verifies the fees<br>
+  &nbsp;&nbsp;10.1.	The Provider fills out a form with the current date and time, the date the service was provided, member name and number, service code, and fee to be paid, that is saved on the terminal<br>
+            11.  The Provider hands the card back to the Chocoholic<br>
+			</p>
+			
+			<p><b>Extensions:</b></p> 
+			<p>
+			3a.	 The Provider requests a full copy of the provider directory<br>
+    &nbsp;&nbsp;3a.1.  The chocAn center sends the directory as an email attachment <br>
+			5a.  The code entered is incorrectly formatted or wrong, and the program displays an error and returns to the enter code screen<br>
+			6a.  The Provider does not verify the code, because it is incorrect, and the program returns to the enter service code line
+			</p>
+		</fieldset>
+	</fieldset>
+	
+	
+	<fieldset id="submitted files">
+		<h1>SUBMITTED FILES</h1>
+	
+		<!-- image template start
+		<p><a href="file name">Description of image</a></p>
+		<img src="file name" alt="name of image">
+		-->
+		
+		<!-- file template start
+		<p><a href="file name">Description of file</a></p>
+		-->
+		
+	</fieldset>
+	
+	<fieldset id="Task Distribution">
+		<p>
+		Ryan Bruns: XX%<br>
+		Ellen Disilverio: XX%<br>
+		Emerson Jackson: XX%<br>
+		Rory O'Connor: XX%<br>
+		Alec Sabatier: XX%<br>
+		</p>
+		<h5>Tasks:</h5>
+		
+		<!-- task format
+		<p><b>Task Name: </b>names of participants</p>
+		-->
+	</fieldset>
+	</body>
+</html>
