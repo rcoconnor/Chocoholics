@@ -1,0 +1,9 @@
+DateRecorded: 04-25-2019
+TimeRecorded: 13:39:41
+dateOfService: 04-26-2019
+memberName: John
+ProviderNumber: 828128363
+memberNumber: 123170878
+serviceCode: 349481
+serviceFee: 100
+commentary: 

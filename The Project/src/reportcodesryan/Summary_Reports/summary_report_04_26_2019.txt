@@ -1,0 +1,12 @@
+Provider name: Shareef
+  Number of Consultations: 1
+  Total fee: 35.0
+-------------------------------------- 
+Provider name: sdh
+  Number of Consultations: 2
+  Total fee: 200.0
+-------------------------------------- 
+-------------------------------------- 
+Total Providers: 2
+Total Consultations: 3
+Total Fees: 235.0

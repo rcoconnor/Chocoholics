@@ -1,0 +1,9 @@
+DateRecorded: 04-25-2019
+TimeRecorded: 14:42:51
+dateOfService: 04-27-2019
+memberName: Frank Yue
+ProviderNumber: 202047593
+memberNumber: 081920704
+serviceCode: 249349
+serviceFee: 35
+commentary: 

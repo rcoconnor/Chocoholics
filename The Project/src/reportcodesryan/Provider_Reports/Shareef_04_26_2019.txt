@@ -1,0 +1,19 @@
+Provider Name: Shareef
+Provider Street Address: None of my business
+Provider City: Tuscaloosa
+Provider State: AL
+Provider Number: 202047593
+Provider ZIP code: 35404
+-------------------------------------- 
+-------------------------------------- 
+  @04-27-2019
+  04-25-2019 14:42:51
+  Frank
+  081920704
+  249349
+  35
+  null
+-------------------------------------- 
+-------------------------------------- 
+Number of Consultations: 1
+Total Fee: 35.0
