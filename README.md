@@ -75,6 +75,7 @@ instructions on how to format these times is provided in the comments of the
 code.
 
 -----------------------Locations (in case you get lost)------------------------
+
 	provider code: src/elleuser/Data/providerDirectory.txt
 	member code stored in /src/elleuser/Data/memberDirectory.txt
 	operator code: /src/employee/records/employeelist.txt
