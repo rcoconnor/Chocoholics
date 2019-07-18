@@ -32,17 +32,17 @@ Provider
 
 Operator
 4. Add Member/Provider
-   1. To add a member or provider, simply click the ìAdd Memberî or ìAdd 
-   Providerî button, and the program will prompt you for all necessary 
+   1. To add a member or provider, simply click the ìAdd Member or ìAdd 
+   Provider button, and the program will prompt you for all necessary 
    information, and store it in their respective files, both stored in the 
-   directory ìì/TheProject/elleuser/Data/.î
+   directory ìì/TheProject/elleuser/Data/.
 5. Remove Member/Provider
-   1. To remove a member or provider, simply click the ìRemove Memberî or 
-   ìRemove Providerî button, then enter the number of the member or provider 
+   1. To remove a member or provider, simply click the ìRemove Member or 
+   ìRemove Provider button, then enter the number of the member or provider 
    you want to remove.
 6. Edit Member/Provider Information
-   1. To edit a member or provider, simply click the ìEdit Member Informationî 
-   or ìRemove Provider Informationî button, then enter the number of the member
+   1. To edit a member or provider, simply click the ìEdit Member Information 
+   or ìRemove Provider Information button, then enter the number of the member
    or provider you want to edit. The program will then show you the information
     of the member or provider youíve entered the number of, then ask you which 
     piece of info to edit. Choose the info you want to change through the drop-
@@ -50,19 +50,19 @@ Operator
 
 Manager
 7. Make a Member Report
-   1. To make a member report, click the ìRun Individual Member Reportî button 
+   1. To make a member report, click the ìRun Individual Member Report button 
    and enter the number of the member you want a report for. The program will 
    then generate an individual report and store it in the directory: 
-   ì/TheProject/reportcodesryan/Member_Reportsî
+   ì/TheProject/reportcodesryan/Member_Reports
 8. Make a Provider Report
-   1. To make a provider report, click the ìRun Individual Provider Reportî 
+   1. To make a provider report, click the ìRun Individual Provider Report 
    button and enter the number of the Provider you want a report for. The 
    program will then generate an individual report and store it in the 
-   directory:  ì/TheProject/reportcodesryan/Provider_Reportsî
+   directory:  ì/TheProject/reportcodesryan/Provider_Reports
 9. Make a Summary Report
-   1. To make a summary report, click the ìRun Current Summary Reportî button. 
+   1. To make a summary report, click the ìRun Current Summary Report button. 
    A summary report will be generated, and placed in the directory: 
-   ì/TheProject/reportcodesryan/Summary_Reportsî
+   ì/TheProject/reportcodesryan/Summary_Reports
 
 
 Automatic Processes
