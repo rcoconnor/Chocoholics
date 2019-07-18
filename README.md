@@ -1,20 +1,13 @@
 
------------------------------------Locations-----------------------------------
-provider code: src/elleuser/Data/providerDirectory.txt
-member code stored in /src/elleuser/Data/memberDirectory.txt
-operator code: /src/employee/records/employeelist.txt
-manager code: /src/employee/records/employeelist.txt
--------------------------------------------------------------------------------
-
 Chocoholics Implelments the following nine Use Cases.  Revelvant codes to get 
 started: 
 
-	Admin password: ìAdminî
+	Admin password: Admin
 	Provider code: 001861196
 	Member code: 426094731
-	Operator code: ì123î
-	Manager code: ì1234î
-
+	Operator code: 123
+	Manager code: 1234
+------------------------------------------------------------------------------
 
 For all menus, begin by entering the respective code shown above, or the admin 
 password, which will bypass logins for the purpose of demonstration.
@@ -22,19 +15,19 @@ password, which will bypass logins for the purpose of demonstration.
 
 Provider
 1. Validate Member
-   1. To validate a member, simply click the ìValidate Memberî button and enter 
+   1. To validate a member, simply click the ìValidate Member button and enter 
    their member number. The program will check if they are a valid member, and 
    if so, will tell you their member status.
 2. Request Provider Directory
-   1. To request the provider directory, click the ìRequest Provider Directoryî 
+   1. To request the provider directory, click the ìRequest Provider Directory 
    button. You will then be presented with another menu to choose whether to 
    have the directory shown to you directly, or to have it emailed to you. If 
    the latter option is chosen, the email file will be stored in the folder:  
-   /TheProject/alecservicecodes/Emails.î
+   /TheProject/alecservicecodes/Emails.
 3. Bill for Health Care Services
    1. To bill for a health care service, click the Bill for Health Care 
    Services button. The program will ask you for all necessary information to 
-   make a report, then store it in ìENTER DIRECTORY HEREî
+   make a report, then store it in ENTER DIRECTORY HERE
 
 
 Operator
@@ -81,4 +74,8 @@ generation can be changed on line 56 of the file AccountingProcedure. Further
 instructions on how to format these times is provided in the comments of the 
 code.
 
-
+-----------------------Locations (in case you get lost)------------------------
+	provider code: src/elleuser/Data/providerDirectory.txt
+	member code stored in /src/elleuser/Data/memberDirectory.txt
+	operator code: /src/employee/records/employeelist.txt
+	manager code: /src/employee/records/employeelist.txt
